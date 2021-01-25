@@ -85,7 +85,9 @@ Se você for aprovad(a) nesta etapa, será convidado para uma entrevista final.
 	1.	Subir um container postgres
 		* docker run --name desafio-postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
 	2.	Executar o script DDL_DESAFIO.sql para criar a estrutura de banco de dados, como opcional pode executar o script DML_DESAFIO.sql para criar uma pessoa.
-	3.	
+	3.	Executar o comando yarn install para baixar as dependencias do projeto
+	4.	Executar o comando yarn run dev:server para subir o servico da API
+	5.	O arquivo Insomnia_desafio_dock.json contem um workspace do Insominia com os metodos disponiveis na API
 	
 	
 	
