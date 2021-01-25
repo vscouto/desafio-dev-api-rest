@@ -77,3 +77,15 @@ Se você for aprovad(a) nesta etapa, será convidado para uma entrevista final.
       3. Desenvolva. Você terá 7 (sete) dias a partir da data do envio do desafio; 
       4. Após concluir seu trabalho faça um push; 
       5. Envie um e-mail à pessoa que está mantendo o contato com você durante o processo notificando a finalização do desafio para validação.
+	  
+
+
+
+### Manual de Execução 
+	1.	Subir um container postgres
+		* docker run --name desafio-postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+	2.	Executar o script DDL_DESAFIO.sql para criar a estrutura de banco de dados, como opcional pode executar o script DML_DESAFIO.sql para criar uma pessoa.
+	3.	
+	
+	
+	
